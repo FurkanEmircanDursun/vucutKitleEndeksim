@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F5FA"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F5FA"
+        android:gravity="center_horizontal"
+        android:text="BKI"
+        android:textColor="#4C202F"
+        android:textColorHighlight="#594919"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/boyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+
+        android:background="#1E88E5"
+        android:hint="lenght"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="false"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+        android:textSize="40dp"
+        android:typeface="monospace"></EditText>
+
+    <EditText
+        android:id="@+id/kiloText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#1E88E5"
+        android:hint="kilo"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+        android:textSize="40dp"
+        android:typeface="monospace"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:onClick="calculate"
+            android:text="Calculate"
+            android:textSize="20dp"></Button><![CDATA[
+
+        >]]>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp">
+
+    </TextView>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
